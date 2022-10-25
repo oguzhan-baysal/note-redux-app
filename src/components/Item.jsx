@@ -23,7 +23,7 @@ function Item({ note }) {
       <div class="sm:w-64 h-64 w-full flex flex-col justify-between bg-white  rounded-lg border border-gray-400 mb-4 py-5 px-4 ">
         <div className="truncate">
           <h3
-            tabindex="0"
+            tabIndex="0"
             class="focus:outline-none text-gray-800  first-line:font-bold mb-3 break-all whitespace-pre-line "
           >
             {note.note}
@@ -31,7 +31,7 @@ function Item({ note }) {
         </div>
         <div>
           <div class="flex items-center justify-between text-gray-800 mt-2">
-            <p tabindex="0" class="focus:outline-none text-sm ">
+            <p tabIndex="0" class="focus:outline-none text-sm ">
               {note.dates}
             </p>
             <div
